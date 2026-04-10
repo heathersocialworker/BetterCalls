@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F83238AF2E2A117D00B84645 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = F83238AE2E2A117D00B84645 /* FirebaseAI */; };
+		F83238B12E2A117D00B84645 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F83238B02E2A117D00B84645 /* FirebaseAnalytics */; };
+		F83238B32E2A117D00B84645 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = F83238B22E2A117D00B84645 /* FirebaseAnalyticsCore */; };
+		F83238B52E2A117D00B84645 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = F83238B42E2A117D00B84645 /* FirebaseAnalyticsIdentitySupport */; };
+		F83238B72E2A117D00B84645 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F83238B62E2A117D00B84645 /* FirebaseAppCheck */; };
+		F83238B92E2A2CF400B84645 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F83238B82E2A2CF400B84645 /* FirebaseFirestore */; };
+		F83238BB2E2A2CF400B84645 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F83238BA2E2A2CF400B84645 /* FirebaseFirestoreCombine-Community */; };
+		F85762772E2F09B70066E302 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F85762762E2F09B70066E302 /* GoogleSignIn */; };
+		F85762792E2F09B70066E302 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F85762782E2F09B70066E302 /* GoogleSignInSwift */; };
+		F8BDDE342E2DC2D8000AC2B8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F8BDDE332E2DC2D8000AC2B8 /* FirebaseAuth */; };
+		F8BDDE362E2DC2D8000AC2B8 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F8BDDE352E2DC2D8000AC2B8 /* FirebaseAuthCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85AF88A2E1CC4C700E3809C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85AF8712E1CC4C600E3809C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85AF8782E1CC4C600E3809C;
+			remoteInfo = BetterCalls;
+		};
+		F85AF8942E1CC4C800E3809C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85AF8712E1CC4C600E3809C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85AF8782E1CC4C600E3809C;
+			remoteInfo = BetterCalls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85AF8792E1CC4C600E3809C /* BetterCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85AF8892E1CC4C700E3809C /* BetterCallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85AF8932E1CC4C800E3809C /* BetterCallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F857627F2E304F0B0066E302 /* Exceptions for "BetterCalls" folder in "BetterCalls" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F85AF8782E1CC4C600E3809C /* BetterCalls */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F85AF87B2E1CC4C600E3809C /* BetterCalls */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F857627F2E304F0B0066E302 /* Exceptions for "BetterCalls" folder in "BetterCalls" target */,
+			);
+			path = BetterCalls;
+			sourceTree = "<group>";
+		};
+		F85AF88C2E1CC4C700E3809C /* BetterCallsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BetterCallsTests;
+			sourceTree = "<group>";
+		};
+		F85AF8962E1CC4C800E3809C /* BetterCallsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BetterCallsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85AF8762E1CC4C600E3809C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83238B52E2A117D00B84645 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				F8BDDE362E2DC2D8000AC2B8 /* FirebaseAuthCombine-Community in Frameworks */,
+				F83238B12E2A117D00B84645 /* FirebaseAnalytics in Frameworks */,
+				F83238B32E2A117D00B84645 /* FirebaseAnalyticsCore in Frameworks */,
+				F83238B72E2A117D00B84645 /* FirebaseAppCheck in Frameworks */,
+				F85762772E2F09B70066E302 /* GoogleSignIn in Frameworks */,
+				F83238AF2E2A117D00B84645 /* FirebaseAI in Frameworks */,
+				F83238B92E2A2CF400B84645 /* FirebaseFirestore in Frameworks */,
+				F83238BB2E2A2CF400B84645 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F8BDDE342E2DC2D8000AC2B8 /* FirebaseAuth in Frameworks */,
+				F85762792E2F09B70066E302 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85AF8862E1CC4C700E3809C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85AF8902E1CC4C800E3809C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85AF8702E1CC4C600E3809C = {
+			isa = PBXGroup;
+			children = (
+				F85AF87B2E1CC4C600E3809C /* BetterCalls */,
+				F85AF88C2E1CC4C700E3809C /* BetterCallsTests */,
+				F85AF8962E1CC4C800E3809C /* BetterCallsUITests */,
+				F85AF87A2E1CC4C600E3809C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85AF87A2E1CC4C600E3809C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85AF8792E1CC4C600E3809C /* BetterCalls.app */,
+				F85AF8892E1CC4C700E3809C /* BetterCallsTests.xctest */,
+				F85AF8932E1CC4C800E3809C /* BetterCallsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85AF8782E1CC4C600E3809C /* BetterCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85AF89D2E1CC4C800E3809C /* Build configuration list for PBXNativeTarget "BetterCalls" */;
+			buildPhases = (
+				F85AF8752E1CC4C600E3809C /* Sources */,
+				F85AF8762E1CC4C600E3809C /* Frameworks */,
+				F85AF8772E1CC4C600E3809C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F85AF87B2E1CC4C600E3809C /* BetterCalls */,
+			);
+			name = BetterCalls;
+			packageProductDependencies = (
+				F83238AE2E2A117D00B84645 /* FirebaseAI */,
+				F83238B02E2A117D00B84645 /* FirebaseAnalytics */,
+				F83238B22E2A117D00B84645 /* FirebaseAnalyticsCore */,
+				F83238B42E2A117D00B84645 /* FirebaseAnalyticsIdentitySupport */,
+				F83238B62E2A117D00B84645 /* FirebaseAppCheck */,
+				F83238B82E2A2CF400B84645 /* FirebaseFirestore */,
+				F83238BA2E2A2CF400B84645 /* FirebaseFirestoreCombine-Community */,
+				F8BDDE332E2DC2D8000AC2B8 /* FirebaseAuth */,
+				F8BDDE352E2DC2D8000AC2B8 /* FirebaseAuthCombine-Community */,
+				F85762762E2F09B70066E302 /* GoogleSignIn */,
+				F85762782E2F09B70066E302 /* GoogleSignInSwift */,
+			);
+			productName = BetterCalls;
+			productReference = F85AF8792E1CC4C600E3809C /* BetterCalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85AF8882E1CC4C700E3809C /* BetterCallsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85AF8A02E1CC4C800E3809C /* Build configuration list for PBXNativeTarget "BetterCallsTests" */;
+			buildPhases = (
+				F85AF8852E1CC4C700E3809C /* Sources */,
+				F85AF8862E1CC4C700E3809C /* Frameworks */,
+				F85AF8872E1CC4C700E3809C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85AF88B2E1CC4C700E3809C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F85AF88C2E1CC4C700E3809C /* BetterCallsTests */,
+			);
+			name = BetterCallsTests;
+			packageProductDependencies = (
+			);
+			productName = BetterCallsTests;
+			productReference = F85AF8892E1CC4C700E3809C /* BetterCallsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F85AF8922E1CC4C800E3809C /* BetterCallsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85AF8A32E1CC4C800E3809C /* Build configuration list for PBXNativeTarget "BetterCallsUITests" */;
+			buildPhases = (
+				F85AF88F2E1CC4C800E3809C /* Sources */,
+				F85AF8902E1CC4C800E3809C /* Frameworks */,
+				F85AF8912E1CC4C800E3809C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85AF8952E1CC4C800E3809C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F85AF8962E1CC4C800E3809C /* BetterCallsUITests */,
+			);
+			name = BetterCallsUITests;
+			packageProductDependencies = (
+			);
+			productName = BetterCallsUITests;
+			productReference = F85AF8932E1CC4C800E3809C /* BetterCallsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85AF8712E1CC4C600E3809C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F85AF8782E1CC4C600E3809C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F85AF8882E1CC4C700E3809C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F85AF8782E1CC4C600E3809C;
+					};
+					F85AF8922E1CC4C800E3809C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F85AF8782E1CC4C600E3809C;
+					};
+				};
+			};
+			buildConfigurationList = F85AF8742E1CC4C600E3809C /* Build configuration list for PBXProject "BetterCalls" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85AF8702E1CC4C600E3809C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F85762752E2F09B70066E302 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F85AF87A2E1CC4C600E3809C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85AF8782E1CC4C600E3809C /* BetterCalls */,
+				F85AF8882E1CC4C700E3809C /* BetterCallsTests */,
+				F85AF8922E1CC4C800E3809C /* BetterCallsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85AF8772E1CC4C600E3809C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85AF8872E1CC4C700E3809C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85AF8912E1CC4C800E3809C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85AF8752E1CC4C600E3809C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85AF8852E1CC4C700E3809C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85AF88F2E1CC4C800E3809C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85AF88B2E1CC4C700E3809C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85AF8782E1CC4C600E3809C /* BetterCalls */;
+			targetProxy = F85AF88A2E1CC4C700E3809C /* PBXContainerItemProxy */;
+		};
+		F85AF8952E1CC4C800E3809C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85AF8782E1CC4C600E3809C /* BetterCalls */;
+			targetProxy = F85AF8942E1CC4C800E3809C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F85AF89B2E1CC4C800E3809C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F85AF89C2E1CC4C800E3809C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85AF89E2E1CC4C800E3809C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterCalls/Preview Content\"";
+				DEVELOPMENT_TEAM = 59X4M9ZSZU;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetterCalls/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tanay.BetterCalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85AF89F2E1CC4C800E3809C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterCalls/Preview Content\"";
+				DEVELOPMENT_TEAM = 59X4M9ZSZU;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetterCalls/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tanay.BetterCalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F85AF8A12E1CC4C800E3809C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59X4M9ZSZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tanay.BetterCallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterCalls.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterCalls";
+			};
+			name = Debug;
+		};
+		F85AF8A22E1CC4C800E3809C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59X4M9ZSZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tanay.BetterCallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterCalls.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterCalls";
+			};
+			name = Release;
+		};
+		F85AF8A42E1CC4C800E3809C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59X4M9ZSZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tanay.BetterCallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterCalls;
+			};
+			name = Debug;
+		};
+		F85AF8A52E1CC4C800E3809C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59X4M9ZSZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tanay.BetterCallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterCalls;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85AF8742E1CC4C600E3809C /* Build configuration list for PBXProject "BetterCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AF89B2E1CC4C800E3809C /* Debug */,
+				F85AF89C2E1CC4C800E3809C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85AF89D2E1CC4C800E3809C /* Build configuration list for PBXNativeTarget "BetterCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AF89E2E1CC4C800E3809C /* Debug */,
+				F85AF89F2E1CC4C800E3809C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85AF8A02E1CC4C800E3809C /* Build configuration list for PBXNativeTarget "BetterCallsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AF8A12E1CC4C800E3809C /* Debug */,
+				F85AF8A22E1CC4C800E3809C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85AF8A32E1CC4C800E3809C /* Build configuration list for PBXNativeTarget "BetterCallsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AF8A42E1CC4C800E3809C /* Debug */,
+				F85AF8A52E1CC4C800E3809C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+		F85762752E2F09B70066E302 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F83238AE2E2A117D00B84645 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		F83238B02E2A117D00B84645 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F83238B22E2A117D00B84645 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		F83238B42E2A117D00B84645 /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		F83238B62E2A117D00B84645 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		F83238B82E2A2CF400B84645 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F83238BA2E2A2CF400B84645 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F85762762E2F09B70066E302 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85762752E2F09B70066E302 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F85762782E2F09B70066E302 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85762752E2F09B70066E302 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		F8BDDE332E2DC2D8000AC2B8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F8BDDE352E2DC2D8000AC2B8 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83238AD2E2A117D00B84645 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F85AF8712E1CC4C600E3809C /* Project object */;
+}
